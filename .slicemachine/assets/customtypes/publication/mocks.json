@@ -14,14 +14,19 @@
     "title": [
       {
         "type": "heading1",
-        "text": "Limited",
+        "text": "Experience",
         "spans": []
       }
     ],
     "content": [
       {
+        "type": "heading1",
+        "text": "Double",
+        "spans": []
+      },
+      {
         "type": "paragraph",
-        "text": "Nulla sunt occaecat irure do ut nostrud aliqua culpa ea voluptate exercitation. Incididunt excepteur ipsum aliqua pariatur cillum excepteur adipisicing labore laboris dolore mollit. Non ea ad minim ex ad irure exercitation excepteur nisi ut duis velit voluptate reprehenderit adipisicing.",
+        "text": "Est ad eiusmod aliqua ipsum ex voluptate.",
         "spans": []
       }
     ],

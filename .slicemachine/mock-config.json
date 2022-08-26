@@ -9,7 +9,7 @@
       },
       "content": {
         "config": {
-          "patternType": "PARAGRAPH",
+          "patternType": "STORY",
           "blocks": 1
         }
       }
