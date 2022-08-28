@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center" id="top"> 
+  <img src="./public/images/logo.svg" height='80px' alt="ignews logo" />
+</div>
 
-## Getting Started
+## Sobre
 
-First, run the development server:
+Ignews é uma plataforma de notícias com assinatura mensal, onde é requerido ao usuário o pagamento da inscrição para a visualização completa dos posts, em caso de não ter assinatura ativa é apresentado um preview da postagem.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+A aplicação é desenvolvida para o estudo mais aprofundado do React js e Next.js, onde é abordado conceitos importantes como SSR, SSG, NextAuth, API Root e entre outros. Além disso, são utilizados serviços e ferramentas essenciais para o desenvolvimento da aplicação, como o Stripe para os metodos de pagamento, o Prismic CMS para a administração das postagens e o FaunaDB para armazenar as informações dos usuários.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Layout
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![ignews1](https://user-images.githubusercontent.com/87788683/187079701-f78cd457-6c17-45a0-9d56-478de960bc18.png)
+![ignews2](https://user-images.githubusercontent.com/87788683/187079702-e8985045-49be-4c70-8226-a4bb93364be6.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Tecnologias
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Foram usadas as tecnologias e ferramentas abaixo:
 
-## Learn More
+- [React js](https://pt-br.reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [FaunaDB](https://fauna.com/)
+- [Stripe](https://stripe.com/br)
+- [Prismic.io](https://prismic.io/)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como Usar 🤔
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  Antes é necessário configurar as variaveis dos serviços, preencha de acordo com o arquivo `.env.local.example`
 
-## Deploy on Vercel
+   ```
+   - Clone esse repositório:
+   $ git clone https://github.com/GeovaneReboucas/ignews
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Entre no diretório:
+   $ cd ignews
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - Instale as dependências:
+   $ yarn install
+
+   - Inicie a aplicação
+   $ yarn start
+   
+   ```  
+   
+<hr/>
+
+<p align="center">
+  Feito com 💜 por <a href="https://github.com/GeovaneReboucas">Geovane Rebouças Bezerra</a>
+</p>
